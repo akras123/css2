@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Page3B
 ---
 
 <h1>This is the Page 3B</h1>

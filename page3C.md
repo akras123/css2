@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Page3C
 ---
 <h1>This is the Page 3C</h1>
 <p style="color:red">This is the index page.</p>

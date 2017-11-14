@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Snippets
 ---
 
 <img src="{{site.baseurl}}/assets/img/img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228">
