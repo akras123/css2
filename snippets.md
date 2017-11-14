@@ -3,8 +3,8 @@ layout: default
 title: Snippets
 ---
 
-<img src="{{site.baseurl}}/assets/img/img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228">
-<img src="{{site.baseurl}}/assets/img/img_girls.jpg" alt="Girls.jpg niet aanwezig"  height="200">
+<img src="assets/img/img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228">
+<img src="assets/img/img_girls.jpg" alt="Girls.jpg niet aanwezig"  height="200">
 
 <!-- alleen de hoogte gegeven, dan blijft de foto in originele hoogte/breedte verhoudingen -->
 <h1>This is the Snippets Page</h1>
