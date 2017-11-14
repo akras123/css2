@@ -4,4 +4,4 @@ title: index
 ---
 
 index file
-[README](/README/)  
+[README]({{site.baseurl}}/README/)  
