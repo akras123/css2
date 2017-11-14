@@ -40,7 +40,7 @@ close to 5 million globally.
     .... some HTML here ....
 <![endif]-->
 
-<img src="assets/img/img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">
+<img src="/assets/img/img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">
 
 Ad a background image to an html element: proberen met plink!
 <p style="background-image:url('clouds.jpg')">
