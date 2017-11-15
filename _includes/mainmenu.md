@@ -9,5 +9,5 @@
         <a {% if {{page.title}} == "Page3C" %}class="active"{% endif %} href="{{site.baseurl}}/page3C.html">Page 3C</a>
       </div>
     </li>
-    <li><a {% if {{page.title}} == "About" %}class="active"{% endif %} href="{{site.baseurl}}/about-us.html">About</a></li>
+    <li><a {% if {{page.title}} == "About" %}class="active"{% endif %} href="/about-us/">About</a></li>
   </ul><br/><hr/>
