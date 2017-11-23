@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Page3B
+parent: Dropdown
 ---
 
 <h1>This is the Page 3B</h1>

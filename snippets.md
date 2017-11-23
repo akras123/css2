@@ -3,6 +3,8 @@ layout: default
 title: Snippets
 ---
 
+<body>
+style='background-image: url("assets/img/img_girl.jpg");'
 <img src="assets/img/img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228">
 <img src="assets/img/img_girls.jpg" alt="Girls.jpg niet aanwezig"  height="200">
 
@@ -44,6 +46,7 @@ close to 5 million globally.
 <img src="assets/img/img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">
 
 Ad a background image to an html element: proberen met plink!
-<p style="background-image:url('clouds.jpg')">
-...
+<p style='background-image: url("assets/img/img_girl.jpg");'>
+En dan weer gewoon tekst eroverheen typen...
 </p>
+</body>

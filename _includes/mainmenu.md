@@ -2,7 +2,8 @@
   <ul>
     <li><a {% if {{page.title}} == "index" %}class="active"{% endif %} href="{{site.baseurl}}/index.html">Home</a></li>
     <li><a {% if {{page.title}} == "Snippets" %}class="active"{% endif %} href="{{site.baseurl}}/snippets.html">Snippets</a></li>
-    <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+    <li class="dropdown"><a href="javascript:void(0)"
+      {% if {{page.parent}} == "Dropdown" %}class="dropbtn-active"{% else %}class="dropbtn-inactive"{% endif %}>Dropdown</a>
       <div class="dropdown-content">
         <a {% if {{page.title}} == "Page3A" %}class="active"{% endif %} href="{{site.baseurl}}/page3A.html">Page 3A</a>
         <a {% if {{page.title}} == "Page3B" %}class="active"{% endif %} href="{{site.baseurl}}/page3B.html">Page 3B</a>
