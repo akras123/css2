@@ -18,12 +18,34 @@
 
 </head>
 <body>
-  <h1>This is the Page 3B</h1>
-<p style="color:red">This is the index page.</p>
+  <h1>This is Page 3B</h1>
 
-<p title="dit is een tooltip">tekst met tooltip</p>
+<h2>My First JavaScript</h2>
 
-<p><a href="https://www.w3schools.com">This is a link</a>
-<!--- attributes altijd tusse quotes (aanbevolen) --></p>
+<p><button type="button" id="demo" onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button></p>
+
+<!-- p id="demo"></p> -->
+
+<p>Replace "Microsoft" with "W3Schools" in the paragraph below:</p>
+
+<p><button onclick="myFunction()">Try it</button></p>
+
+<p id="demo2">Please visit Microsoft!</p>
+<p><button id="Button2" onclick="changeBgColor(this)">Change background color</button></p>
+
+<script>
+function myFunction() {
+    var str = document.getElementById("demo2").innerHTML;
+    var txt = str.replace("Microsoft","W3Schools");
+    document.getElementById("demo2").innerHTML = txt;
+}
+
+function changeBgColor(id) {
+id.style.backgroundColor = "Lightblue";
+}
+</script>
+
+<!-- document.getElementById("demo").innerHTML = -->
 
 </body>
